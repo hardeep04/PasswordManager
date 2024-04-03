@@ -14,7 +14,7 @@ body{
 nav {
     background-color: black;
     color: white;
-    padding: 13px 13px;
+    padding: 12px 3px;
     display: flex;
     justify-content: space-between;
 }
@@ -40,7 +40,7 @@ ul > li {
 
 ul > li:hover{
     color: white;
-    /* text-decoration: underline; */
+
 }
 
 table, td, tr{
@@ -89,4 +89,12 @@ img{
 
 #alert{
     display: none;
+}
+
+/* styles.css */
+
+.styled-line {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the line */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #333, rgba(255, 255, 255, 0)); /* Create a gradient from transparent to the line color to transparent */
 }
